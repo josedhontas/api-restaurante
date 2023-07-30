@@ -22,6 +22,7 @@ public class FoodController {
         Food foodData = new Food(data);
         repository.save(foodData);
         return;
+
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
