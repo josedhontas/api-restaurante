@@ -18,7 +18,6 @@ public class FoodController {
     public List<Food> getAll(){
         List<Food> foodList = repository.findAll();
         return foodList;
-
     }
 
 }
